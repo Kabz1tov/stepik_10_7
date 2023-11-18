@@ -14,4 +14,8 @@
     <string name="btn_pin_clear">C</string>
     <string name="btn_pin_ok">OK</string>
     <string name="second_activity">Second activity</string>
+    <string name="btn_share">Поделиться</string>
+    <string name="btn_send_by_mail">Отправить по почте</string>
+    <string name="btn_call">Позвонить</string>
+    <string name="btn_open_camera">Запустить камеру</string>
 </resources>
