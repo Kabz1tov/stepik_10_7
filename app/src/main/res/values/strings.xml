@@ -13,4 +13,5 @@
     <string name="btn_pin_9">9</string>
     <string name="btn_pin_clear">C</string>
     <string name="btn_pin_ok">OK</string>
+    <string name="second_activity">Second activity</string>
 </resources>
