@@ -12,4 +12,10 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">@dimen/btn_pin_m</item>
     </style>
+
+    <style name="ButtonNumber" parent="ButtonPin">
+        <item name="android:textColor">@drawable/btn_number_text_color</item>
+        <item name="android:backgroundTint">@drawable/btn_number_bg_color</item>
+        <item name="android:onClick">enterChar</item>
+    </style>
 </resources>

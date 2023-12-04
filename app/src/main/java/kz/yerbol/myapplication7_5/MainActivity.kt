@@ -1,13 +1,16 @@
 package kz.yerbol.myapplication7_5
 
+import android.R.attr.button
 import android.content.Intent
 import android.graphics.Color
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.view.View.OnLongClickListener
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,6 +23,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         tvPin = findViewById(R.id.tv_pin)
+        val btnClear: Button = findViewById(R.id.btn_clear)
+        btnClear.setOnLongClickListener {
+            tvPin.text = ""
+            true
+        }
     }
 
     fun enterChar(view: View) {
